@@ -1,6 +1,6 @@
 // build.sbt
 //
-scalaVersion := "2.12.4"
+scalaVersion := "2.11.8"
 
 scalacOptions ++= Seq(
   "-deprecation",
@@ -10,6 +10,6 @@ scalacOptions ++= Seq(
   "-language", "postfixOps"
 )
 
-crossScalaVersions := Seq("2.11.8", scalaVersion.value)
+crossScalaVersions := Seq("2.12.4", scalaVersion.value)
 
 version := "0.0.1"
