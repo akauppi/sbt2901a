@@ -11,3 +11,5 @@ scalacOptions ++= Seq(
 )
 
 crossScalaVersions := Seq("2.11.8", scalaVersion.value)
+
+version := "0.0.1"
